@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/api/postit")
 public class PostItController {
 
-    @Autowired
+    @Autowired(required = false)
     private PostItService postItService;
 
     @PostMapping
