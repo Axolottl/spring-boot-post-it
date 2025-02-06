@@ -1,4 +1,4 @@
-package com.post.it.config;
+package com.it.post.config;
 
 /**
  * Configuration class definition for ElasticSearch

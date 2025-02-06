@@ -1,7 +1,7 @@
-package com.post.it.controller;
+package com.it.post.controller;
 
-import com.post.it.entity.PostIt;
-import com.post.it.service.PostItService;
+import com.it.post.entity.PostIt;
+import com.it.post.service.PostItService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

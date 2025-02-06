@@ -1,7 +1,7 @@
-package com.post.it;
+package com.it.post;
 
-import com.post.it.entity.PostIt;
-import com.post.it.service.PostItService;
+import com.it.post.entity.PostIt;
+import com.it.post.service.PostItService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -30,7 +30,7 @@ class PostItApplicationTests {
      */
     @Test
     void testCreatePostIt() {
-        PostIt postIt = new PostIt();
+        PostIt postIt = new PostIt("","");
         postIt.setTitle("Test Note");
         postIt.setContent("This is a postit");
 

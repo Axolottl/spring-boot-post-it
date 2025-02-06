@@ -1,6 +1,6 @@
-package com.post.it.repository;
+package com.it.post.repository;
 
-import com.post.it.entity.PostIt;
+import com.it.post.entity.PostIt;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

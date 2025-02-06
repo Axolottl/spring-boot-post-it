@@ -1,12 +1,11 @@
-package com.post.it.service;
+package com.it.post.service;
 
-import com.post.it.entity.PostIt;
-import com.post.it.repository.PostItRepository;
+import com.it.post.entity.PostIt;
+import com.it.post.repository.PostItRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 /**
  * Service class for managing PostIts

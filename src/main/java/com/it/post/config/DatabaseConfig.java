@@ -1,4 +1,4 @@
-package com.post.it.config;
+package com.it.post.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
